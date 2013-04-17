@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutServiceDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:clickable="true">
+
+   <TextView
+       android:id="@+id/txtBrandName"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginBottom="5dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="15dp"
+       android:text="Brand Name"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textColor="#333333"
+       android:textSize="15pt"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/txtMessage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginBottom="15dp"
+       android:text="TextView" 
+       android:gravity="center"/>
+
+</LinearLayout>

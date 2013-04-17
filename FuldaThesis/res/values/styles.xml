@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="searchBox" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/search_01</item>
+    </style>
+
+    <style name="seekBar" parent="@android:style/Widget.SeekBar">
+       
+        
+    </style>
+
+</resources>

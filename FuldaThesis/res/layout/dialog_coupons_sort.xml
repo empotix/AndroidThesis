@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px" >
+
+    <RadioGroup
+        android:id="@+id/radioSortGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioSortDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Sort By Distance" />
+
+        <RadioButton
+            android:id="@+id/radioSortRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By Coupon Rating" />
+
+        <RadioButton
+            android:id="@+id/radioSortName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By Coupon Name" />
+
+        <RadioButton
+            android:id="@+id/radioSortBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By Brand Name" />
+
+        <RadioButton
+            android:id="@+id/radioSortSDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By Start Date" />
+
+        <RadioButton
+            android:id="@+id/radioSortEDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort By End Date" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxReverseSort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reverse Sort" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100px" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/horizontal_white" />
+
+        <ImageView
+            android:id="@+id/btnDialogSortSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:src="@drawable/button_gray" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnDialogSortSet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20px"
+            android:text="OK" />
+    </RelativeLayout>
+
+</LinearLayout>
